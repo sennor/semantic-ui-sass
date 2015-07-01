@@ -38,6 +38,8 @@ We have a helper that includes all Semantic javascripts. Put this in your Javasc
 // Loads all Semantic javascripts
 //= require semantic-ui
 ```
+Semantic javascripts requires [jQuery2](https://github.com/rails/jquery-rails) `//= require jquery2` before requiring semantic-ui 
+
 
 You can also load individual modules, provided you also require any dependencies.
 
